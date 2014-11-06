@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>External panels - jQuery Mobile Demos</title>
+	<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.4.min.css">
+	<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+	<script src="js/jquery.js"></script>
+	<script src="_assets/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.4.min.js"></script>
+	<script id="panel-init">
+		$(function() {
+			$( "body>[data-role='panel']" ).panel();
+		});
+	</script>
+    
+        <link rel="stylesheet" href="css/ratchet.css">
+    <link rel="stylesheet" href="css/app.css">
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    
+</head>
+<body>
+
+<div data-role="page" class="jqm-demos" data-quicklinks="true">
+	<div role="main" class="ui-content jqm-content jqm-fullwidth">
+     <!-- conteudo --> 	
+        <header class="bar bar-nav">
+      		<a href="login.html" class="pull-right"> <img src="img/login_icon.png"></a>
+      		<div class="logo "><img src="img/logo_puc.png" /></div>
+          <ul class="table-view">
+        	<li class="table-view-cell table-view-divider">	
+        		<font><font><a href="#leftpanel1" data-icon="bars" data-iconpos="notext" style="font-size:25px;"><img src="img/jqm_demo-icons-sd.png"/>Menu </a>
+        	</font></font>
+        	</li>
+       	   </ul>	
+    	</header>		
+        <div class="content">
+    <ul class="table-view">
+        
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="telas/graduacao/index_gra.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="img/Graduation.png" >
+            <div class="media-body"><font><font>
+              Graduação
+              </font></font><p><font><font>Conheça os cursos de Graduação.</font></font></p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="telas/pos-graduacao/index_pos-gra.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="img/pos-Graduation.png">
+            <div class="media-body"><font><font>
+              Pós - Graduação
+              </font></font><p><font><font>Conheça os cursos de Pos-Graduação.</font></font></p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="telas/vestibular/index_vesibular.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="img/vestibu_icon.png" >
+            <div class="media-body"><font><font>
+              Vestibular
+              </font></font><p><font><font>Venha estudar conosco.</font></font></p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="telas/pro-reitoria/index_pro_reitori.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="img/pro_reitoria.png" >
+            <div class="media-body"><font><font>
+              Pró - Reitorias
+              </font></font><p><font><font>Orgãos Auxiliares.</font></font></p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="img/institucional.png" >
+            <div class="media-body"><font><font>
+              Institucional
+              </font></font><p><font><font>Nossa missão e história.</font></font></p>
+            </div>
+          </a>
+        </li>
+       </ul>
+      </div>  
+      <!--conteudo -->  
+	</div><!-- /content -->
+</div><!-- /page -->
+
+	<div data-role="panel" id="leftpanel1" data-position="left" data-display="reveal" data-theme="a">
+  <a href="#demo-links" data-rel="close" class="btn btn-large btn-block" >Fechar Menu</a>
+	
+    <div data-role="panel" data-display="push" data-theme="b" id="nav-panel">
+        <ul data-role="listview" class="ui-listview">
+           <div class="ui-listview menu-nav">
+            <li data-icon="delete"><a href="index.html" data-rel="close" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Inicio</a></li>
+                <li><a href="telas/graduacao/index_gra.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Graduação</a></li>
+                <li><a href="telas/pos-graduacao/index_pos-gra.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Pós-Graduação</a></li>
+                <li><a href="telas/vestibular/index_vesibular.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Vestibular</a></li>
+                <li><a href="telas/pro-reitoria/index_pro_reitori.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Pró - Reitorias</a></li>
+                <li><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Institucional</a></li>
+                <li><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Noticias</a></li>
+                <li><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Jornal da PUCC</a></li>
+                <li><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Serviços</a></li>
+                <li><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Cursos de Extensão</a></li>
+                <li><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">FIES</a></li>
+                <li><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Eventos</a></li>
+                <br><br><br><br>
+			</div>
+		</ul>
+        </div>
+   </div><!-- /leftpanel1 -->   
+</body>
+</html>
