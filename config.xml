@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="PUCC" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>AppPUCC</name>
+    <description>
+        AppPUCC é um aplicativo oficial que apresenta a Pontifícia Universidade Católica de Campinas com seus cursos de Graduação, Pós-graduação e Educação Continuada. Através do aplicativo é possível conhecer a Universidade, cursos, além de acompanhar as notícias e eventos acadêmicos. Tenha em suas mãos um conteúdo atualizado automaticamente e receba notificações acadêmicas.
+    </description>
+    <author email="ensinoadistancia@puc-campinas.edu.br" href="http://puc-campinas.edu.br">
+        PUC - Campinas
+    </author>
+    <feature name="http://api.phonegap.com/1.0/device" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <icon src="img/icon.png" gap:platform="android"/>
+    <icon gap:density="ldpi" gap:platform="android" src="img/icon.png" />
+    <icon gap:density="mdpi" gap:platform="android" src="img/icon.png" />
+    <icon gap:density="hdpi" gap:platform="android" src="img/icon.png" />
+    <icon gap:density="xhdpi" gap:platform="android" src="img/icon.png"/>
+    <icon gap:platform="blackberry" src="img/icon.png" />
+    <icon gap:platform="blackberry" gap:state="hover" src="img/icon.png" />
+    <icon gap:platform="ios" height="57" src="img/icon.png" width="57" />
+    <icon gap:platform="ios" height="72" src="img/icon.png" width="72" />
+    <icon gap:platform="ios" height="114" src="img/icon.png" width="114" />
+    <icon gap:platform="ios" height="144" src="img/icon.png" width="144" />
+    <icon gap:platform="webos" src="img/icon.png" />
+    <icon gap:platform="winphone" src="img/icon.png" />
+    <icon gap:platform="winphone" gap:role="background" src="img/icon.png" />
+    <gap:splash gap:density="ldpi" gap:platform="android" src="img/loading.jpg" />
+    <gap:splash gap:density="mdpi" gap:platform="android" src="img/loading.jpg" />
+    <gap:splash gap:density="hdpi" gap:platform="android" src="img/loading.jpg" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="img/loading.jpg" />
+    <gap:splash gap:platform="blackberry" src="img/icon.png" />
+    <gap:splash gap:platform="ios" height="480" src="img/icon.png" width="320" />
+    <gap:splash gap:platform="ios" height="960" src="img/icon.png" width="640" />
+    <gap:splash gap:platform="ios" height="1024" src="img/icon.png" width="768" />
+    <gap:splash gap:platform="ios" height="768" src="img/icon.png" width="1024" />
+    <gap:splash gap:platform="winphone" src="img/icon.png" />
+    <access origin="http://127.0.0.1*" />
+</widget>
