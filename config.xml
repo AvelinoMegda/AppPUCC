@@ -47,4 +47,5 @@
     <gap:splash gap:platform="ios" height="1024" src="img/icon.png" width="768" />
     <gap:splash gap:platform="ios" height="768" src="img/icon.png" width="1024" />
     <gap:splash gap:platform="winphone" src="img/icon.png" />
+	<access origin="http://127.0.0.1*" />
 </widget>
