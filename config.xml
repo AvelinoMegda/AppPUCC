@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="PUCC" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="AppPUCC" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>AppPUCC</name>
     <description>
         AppPUCC é um aplicativo oficial que apresenta a Pontifícia Universidade Católica de Campinas com seus cursos de Graduação, Pós-graduação e Educação Continuada. Através do aplicativo é possível conhecer a Universidade, cursos, além de acompanhar as notícias e eventos acadêmicos. Tenha em suas mãos um conteúdo atualizado automaticamente e receba notificações acadêmicas.
